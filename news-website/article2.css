@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../bilder/header.png');
+    background-image: url('header.png');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;

@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../bilder/header.png');
+    background-image: url('header.png');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;
@@ -42,51 +42,33 @@ header .home-button:hover {
 main {
     display: flex;
     justify-content: center;
-}
-
-#articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 80%;
-    max-width: 1200px;
-}
-
-#articles article {
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    text-align: center;
+}
+
+.article-content {
+    background-color: white;
     color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
 }
 
-#articles article a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#articles article img {
+.article-content img {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
-#articles article h2 {
-    margin: 10px 0 0;
+.article-content h2 {
+    text-align: center;
+    margin-top: 20px;
 }
 
-#articles article.large {
-    grid-column: span 2;
-}
-
-#articles article:nth-child(1) {
-    grid-column: span 2;
-}
-
-#articles article:nth-child(2),
-#articles article:nth-child(3) {
-    grid-column: span 1;
+.article-content p {
+    text-align: justify;
+    margin: 20px 0;
 }
 
 footer {
