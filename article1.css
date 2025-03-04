@@ -21,6 +21,11 @@ header h1 {
     margin: 0;
 }
 
+.Bilde {
+    height: 70px;
+    width: 70px;
+}
+
 header .logo {
     max-height: 50px;
 }

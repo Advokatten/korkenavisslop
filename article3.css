@@ -45,6 +45,11 @@ main {
     padding: 20px;
 }
 
+.Bilde {
+    height: 70px;
+    width: 70px;
+}
+
 .article-content {
     background-color: white;
     color: #333;

@@ -24,6 +24,10 @@ header h1 {
 header .logo {
     max-height: 50px;
 }
+.Bilde {
+    height: 70px;
+    width: 70px;
+}
 
 header .home-button {
     background-color: rgba(0, 123, 255, 0.8);

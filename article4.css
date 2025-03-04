@@ -17,6 +17,11 @@ header {
     color: white;
 }
 
+.Bilde {
+    height: 70px;
+    width: 70px;
+}
+
 header h1 {
     margin: 0;
 }
