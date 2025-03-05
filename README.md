@@ -1,20 +1,8 @@
 # News Website
 
-This is a basic news website project that showcases the latest news articles. The website is structured to provide a clean and user-friendly interface for displaying news content.
+This is a basic news school project that showcases the latest news articles from krokeide. The website is structured to provide a clean and user-friendly interface for displaying news from krokeide.
 
-## Project Structure
 
-```
-news-website
-├── src
-│   ├── index.html        # Main HTML document for the news website
-│   ├── styles
-│   │   └── style.css     # CSS styles for the website
-│   ├── scripts
-│   │   └── main.js       # JavaScript code for dynamic content and interactivity
-├── package.json          # Configuration file for npm
-└── README.md             # Documentation for the project
-```
 
 ## Features
 
@@ -23,26 +11,6 @@ news-website
 - Clean and modern user interface with easy navigation.
 - Footer section with additional links and information.
 
-## Getting Started
-
-To get started with the news website project, follow these steps:
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd news-website
-   ```
-
-3. Install the necessary dependencies:
-   ```
-   npm install
-   ```
-
-4. Open `src/index.html` in your web browser to view the website.
 
 ## Contributing
 
