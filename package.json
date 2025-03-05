@@ -1,8 +1,8 @@
 {
   "name": "news-website",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "A basic news website that displays articles and news updates.",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
     "start": "live-server src",
     "build": "echo 'Build step not defined'"
@@ -12,7 +12,7 @@
     "website",
     "articles"
   ],
-  "author": "Your Name",
+  "author": "Marcus H Hoff",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
