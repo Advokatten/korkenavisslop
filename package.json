@@ -13,7 +13,6 @@
     "articles"
   ],
   "author": "Marcus H Hoff",
-  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1"

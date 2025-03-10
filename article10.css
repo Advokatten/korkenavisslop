@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('Header.png');
+    background-image: url('header.png');
     background-size: cover;
     background-position: center;
     padding: 10px 20px;
@@ -55,7 +55,7 @@ main {
     color: #333;
     padding: 20px;
     border-radius: 8px;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -71,9 +71,19 @@ main {
     margin-top: 20px;
 }
 
-.article-content p {
-    text-align: justify;
-    margin: 20px 0;
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-wrapper p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content-wrapper iframe {
+    flex: 0 0 350px;
 }
 
 footer {
@@ -81,4 +91,16 @@ footer {
     padding: 10px 0;
     background-color: #f8f8f8;
     color: #333;
+}
+
+.tekst1 {
+   font-size: 25px;
+}
+
+.bildetekst1 {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-style: italic;
+    word-spacing: 3px;
 }
